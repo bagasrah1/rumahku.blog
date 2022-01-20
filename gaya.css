@@ -1,0 +1,86 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+.logo a {
+  font-size: x-large;
+  font-weight: 900;
+  font-family: Georgia;
+  float: left;
+  color: #072ca5;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: #25deff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: rgb(5, 5, 126);
+  font-family: serif;
+  font-weight: 600;
+  text-align: center;
+  padding: 0px 15px 0px 15px;
+  text-decoration: none;
+}
+
+a.diam:hover {
+  background: #0cd337;
+  text-decoration: none;
+  margin: 15px 10px 15px 10px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+a.tbl-biru {
+  background-color: #dbf301;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: rgb(5, 5, 126);
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.tbl-biru:hover {
+  background: #4d0353;
+  text-decoration: none;
+  color: white;
+}
